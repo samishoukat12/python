@@ -6,4 +6,4 @@ dic = {
 }
 
 
-print(dic["city"])
+print(dic['city'])

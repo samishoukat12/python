@@ -1,10 +1,11 @@
-array=["santa fe","tuscon","great falls","honolulu"]
-cleanest_city="tuscon"
-
+array=["santa fe","great falls","honolulu"]
+cleanest_city="santa fe"
+i=0
 for city in array:
-    if cleanest_city=="tuscon":
-        returnAnswer=cleanest_city
-if returnAnswer:
-       print("cleanest city is "+cleanest_city)
-else:
-        print("no city is clean")
+    if cleanest_city==city:
+        i=1
+        break
+if i==1:
+    print("clean city")  
+elif i==0:
+    print('no city found')

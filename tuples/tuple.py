@@ -5,4 +5,4 @@ print(my_tuple[0])
 
 
 for x in my_tuple:
-    print(x[0],x[1])
+    print(x[0])

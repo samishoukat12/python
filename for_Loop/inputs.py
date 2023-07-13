@@ -4,7 +4,7 @@ first_input=int(input("enter interger: "))
 
 print(first_input)
 
-second_input=int(input("enter float value: "))
+second_input=float(input("enter float value: "))
 
 print(second_input)
 
